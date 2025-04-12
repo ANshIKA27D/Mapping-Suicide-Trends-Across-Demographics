@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 # Analyze suicide death rates in the U.S. by gender, age, and year using visualizations and statistics.
 
 # LOAD & CLEAN DATA
-df = pd.read_csv(r"C:\Users\ANJALI DUBEY\Downloads\Death_rates_for_suicide__by_sex__race__Hispanic_origin__and_age__United_States.csv")
+df = pd.read_csv(r"paste the path of the file where you have saved you file.")
 
 # Check missing values
 print("Missing values:\n", df.isnull().sum())
